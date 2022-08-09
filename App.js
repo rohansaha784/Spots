@@ -1,13 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
-import pagesItem from "./assets/components/pagesItem";
+import PagesItem from "./assets/components/PagesItem";
 
 export default function App() {
   return (
       <View style={styles.homeContainer}>
 
-          <pagesItem />
+          <PagesItem />
 
         <StatusBar style="auto" />
       </View>

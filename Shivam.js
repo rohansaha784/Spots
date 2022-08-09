@@ -4,7 +4,7 @@ import {SafeAreaView, ImageBackground, StyleSheet, Text, View, Button } from "re
 
 const App = () => (
   <SafeAreaView style={styles.container}>
-    <ImageBackground source={require("./assets/back.jpg")} resizeMode="cover" style={styles.image}>
+    <ImageBackground source={require("./assets/images/road.jpg")} resizeMode="cover" style={styles.image}>
       <Text style={styles.text}>Spots</Text>
     </ImageBackground>
     <Button style={styles.button} title="Get Started" onPress={() => console.log("Button Tapped")}/>

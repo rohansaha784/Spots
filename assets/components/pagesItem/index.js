@@ -6,7 +6,7 @@ const pagesItem = (props) => {
     return (
     <View style={styles.homeContainer}>
     <ImageBackground 
-        source={require("./road.jpg")}
+        source={require("../../images/roadB.jpg")}
         style={styles.image} 
         />
     
