@@ -3,14 +3,14 @@ import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import { Provider } from 'react-redux';
 import { store } from './store';
 
-//This is SPOTS homepage and the text will be written under the homeContainer
-
+//SPOTS homepage iamge and text written under homeContainer
+//DO NOT copy file source while pushing an image also add ./
 export default function App() {
   return (
     <Provider store={store}>
     
     <View style={styles.homeContainer}>
-
+    
       <ImageBackground source={require('./assets/Images/road.jpg')}
       
       style={styles.image}
@@ -40,17 +40,20 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
+// First Container for Homepage
 homeContainer:{
   width: '100%', 
   height: '100%',
 },
 
+//Titles can hold more than one title under the same prefrences
 titles: {
   marginTop: '30%',
   width: '100%',
   alignItems: 'center',
 },
 
+//Title Text weight and font
 title:{
   fontSize: 75,
   fontWeight: '400',
@@ -58,6 +61,7 @@ title:{
 
 },
 
+//SubTitle Text weight and font
 subtitle:{
 
   fontSize: 25,
@@ -66,6 +70,9 @@ subtitle:{
   
 },
 
+//HomePage Background Image 
+//(Use Position Absolute to push image from the foreground to the background)
+//Rezise to cover image (idk how to recenter)
 image: {
   width: '100%',
   height: '100%',
@@ -73,7 +80,8 @@ image: {
   position: 'absolute',
 },
 
-
+//Buttons WILL BE ADDED HERE they a work in progress 
+//I should get them by tuesday
 
 });
 
