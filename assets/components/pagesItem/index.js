@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, Text, ImageBackground} from 'react-native';
+import {View, Text, ImageBackground, Image} from 'react-native';
 import styles from './styles';
 
 const pagesItem = (props) => {
     return (
     <View style={styles.homeContainer}>
     <ImageBackground 
-        source={require('../../assets/Images/road.jpg')}
+        source={require("./road.jpg")}
         style={styles.image} 
         />
     
