@@ -11,7 +11,7 @@ export default function App() {
     
     <View style={styles.homeContainer}>
 
-      <ImageBackground source={require('./assets/Images/Home.jpg')}
+      <ImageBackground source={require('./assets/Images/stars.jpg')}
       
       style={styles.image}
       />
@@ -52,15 +52,17 @@ titles: {
 },
 
 title:{
-fontSize: 60,
-fontWeight: '800',
+fontSize: 75,
+fontWeight: '500',
+color: '#FFFFFF',
 
 },
 
 subtitle:{
 
-fontSize: 20,
-color: '#5c5e68'
+fontSize: 25,
+fontWeight: '300',
+color: '#FFFFFF'
   
 },
 
