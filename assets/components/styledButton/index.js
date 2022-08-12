@@ -10,7 +10,7 @@ const StyledButton = (props) => {
 
 
 //By labeling items as primary and secondary we can create color buttons
-    const backgroundColor = type == 'primary' ? '#171A20CC' : '#FFFFFFA6';
+    const backgroundColor = type == 'primary' ? '#1e1e1e' : '#d7d4d4';
     const textColor = type == 'primary' ? '#FFFFFF' : '#171A20';
     return (
       <View style={styles.container}>
