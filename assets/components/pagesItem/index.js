@@ -16,6 +16,8 @@ const pagesItem = (props) => {
         <Text style={styles.subtitle}>Login Here</Text>
       </View>
 
+<View style={styles.buttonsContainer} >
+
 <StyledButton type= "primary" 
     content={"Log in"}
     onPress={() => {
@@ -29,6 +31,9 @@ const pagesItem = (props) => {
         console.warn("Sign Up was pressed");
     }}
 />
+
+</View>
+
     </View>   
       );
 };

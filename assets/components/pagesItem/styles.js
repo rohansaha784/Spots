@@ -42,6 +42,12 @@ homeContainer: {
     position: 'absolute',
   },
   
+  buttonsContainer: {
+    position: 'absolute',
+    bottom: 90,
+    width: '100%',
+  }
+
 });
 
 export default styles;
