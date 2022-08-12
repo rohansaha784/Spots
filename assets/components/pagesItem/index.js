@@ -16,7 +16,19 @@ const pagesItem = (props) => {
         <Text style={styles.subtitle}>Login Here</Text>
       </View>
 
-<StyledButton type= "primary"/>
+<StyledButton type= "primary" 
+    content={"Log in"}
+    onPress={() => {
+        console.warn("Log in was pressed");
+    }}
+/>
+
+<StyledButton type= "secondary" 
+    content={"Sign Up"}
+    onPress={() => {
+        console.warn("Sign Up was pressed");
+    }}
+/>
     </View>   
       );
 };
