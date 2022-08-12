@@ -7,13 +7,13 @@ const pagesItem = (props) => {
     return (
     <View style={styles.homeContainer}>
     <ImageBackground 
-        source={require("../../images/roadB.jpg")}
+        source={require("../../images/mountain.jpg")}
         style={styles.image} 
         />
     
     <View style={styles.titles}>
         <Text style={styles.title}>SPOTS</Text>
-        <Text style={styles.subtitle}>Login Here</Text>
+        <Text style={styles.subtitle}>Welcome To Your Next Adventure</Text>
       </View>
 
 <View style={styles.buttonsContainer} >

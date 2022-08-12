@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     justifyContent: 'center',
     alignItems: 'center',
+    padding: 10,
   },
   text: {
     fontSize: 13,
