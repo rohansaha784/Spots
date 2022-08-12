@@ -1,6 +1,7 @@
 import React from 'react';
-import {View, Text, ImageBackground, Image} from 'react-native';
+import {View, Text, ImageBackground, } from 'react-native';
 import styles from './styles';
+import StyledButton from '../styledButton';
 
 const pagesItem = (props) => {
     return (
@@ -14,6 +15,8 @@ const pagesItem = (props) => {
         <Text style={styles.title}>SPOTS</Text>
         <Text style={styles.subtitle}>Login Here</Text>
       </View>
+
+<StyledButton type= "primary"/>
     </View>   
       );
 };
