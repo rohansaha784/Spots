@@ -39,4 +39,3 @@ const PagesItem = (props) => {
 };
 
 export default PagesItem;
-
