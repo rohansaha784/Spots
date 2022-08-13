@@ -3,7 +3,7 @@ import {View, Text, ImageBackground, } from 'react-native';
 import styles from './styles';
 import StyledButton from '../styledButton';
 
-const pagesItem = (props) => {
+const PagesItem = (props) => {
     return (
     <View style={styles.homeContainer}>
     <ImageBackground 
@@ -38,5 +38,5 @@ const pagesItem = (props) => {
       );
 };
 
-export default pagesItem;
+export default PagesItem;
 
